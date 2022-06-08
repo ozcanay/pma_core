@@ -1,0 +1,97 @@
+logical core count: 18
+msr_fds[0] = 3
+msr_fds[1] = 4
+msr_fds[2] = 5
+msr_fds[3] = 6
+msr_fds[4] = 7
+msr_fds[5] = 8
+msr_fds[6] = 9
+msr_fds[7] = 10
+msr_fds[8] = 11
+msr_fds[9] = 12
+msr_fds[10] = 13
+msr_fds[11] = 14
+msr_fds[12] = 15
+msr_fds[13] = 16
+msr_fds[14] = 17
+msr_fds[15] = 18
+msr_fds[16] = 19
+msr_fds[17] = 20
+Configuring socket0-CHA0 by writing 0x401017 to core 0, offset 0xe01
+Configuring socket0-CHA1 by writing 0x401017 to core 0, offset 0xe11
+Configuring socket0-CHA2 by writing 0x401017 to core 0, offset 0xe21
+Configuring socket0-CHA3 by writing 0x401017 to core 0, offset 0xe31
+Configuring socket0-CHA4 by writing 0x401017 to core 0, offset 0xe41
+Configuring socket0-CHA5 by writing 0x401017 to core 0, offset 0xe51
+Configuring socket0-CHA6 by writing 0x401017 to core 0, offset 0xe61
+Configuring socket0-CHA7 by writing 0x401017 to core 0, offset 0xe71
+Configuring socket0-CHA8 by writing 0x401017 to core 0, offset 0xe81
+Configuring socket0-CHA9 by writing 0x401017 to core 0, offset 0xe91
+Configuring socket0-CHA10 by writing 0x401017 to core 0, offset 0xea1
+Configuring socket0-CHA11 by writing 0x401017 to core 0, offset 0xeb1
+Configuring socket0-CHA12 by writing 0x401017 to core 0, offset 0xec1
+Configuring socket0-CHA13 by writing 0x401017 to core 0, offset 0xed1
+Configuring socket0-CHA14 by writing 0x401017 to core 0, offset 0xee1
+Configuring socket0-CHA15 by writing 0x401017 to core 0, offset 0xef1
+Configuring socket0-CHA16 by writing 0x401017 to core 0, offset 0xf01
+Configuring socket0-CHA17 by writing 0x401017 to core 0, offset 0xf11
+Sticking main thread to core 6
+---------------- FIRST READINGS ----------------
+Read 1478992 from socket0-CHA0 on core 0, offset 0xe08
+Read 807598 from socket0-CHA1 on core 0, offset 0xe18
+Read 417210 from socket0-CHA2 on core 0, offset 0xe28
+Read 620331 from socket0-CHA3 on core 0, offset 0xe38
+Read 724750 from socket0-CHA4 on core 0, offset 0xe48
+Read 571757 from socket0-CHA5 on core 0, offset 0xe58
+Read 439683 from socket0-CHA6 on core 0, offset 0xe68
+Read 274881 from socket0-CHA7 on core 0, offset 0xe78
+Read 630716 from socket0-CHA8 on core 0, offset 0xe88
+Read 386255 from socket0-CHA9 on core 0, offset 0xe98
+Read 763828 from socket0-CHA10 on core 0, offset 0xea8
+Read 2560639 from socket0-CHA11 on core 0, offset 0xeb8
+Read 537135 from socket0-CHA12 on core 0, offset 0xec8
+Read 683583 from socket0-CHA13 on core 0, offset 0xed8
+Read 387398 from socket0-CHA14 on core 0, offset 0xee8
+Read 342802 from socket0-CHA15 on core 0, offset 0xef8
+Read 10314095 from socket0-CHA16 on core 0, offset 0xf08
+Read 397594 from socket0-CHA17 on core 0, offset 0xf18
+---------------- SECOND READINGS ----------------
+Read 1478992 from socket0-CHA0 on core 0, offset 0xe08
+Read 808550 from socket0-CHA1 on core 0, offset 0xe18
+Read 440657 from socket0-CHA2 on core 0, offset 0xe28
+Read 621292 from socket0-CHA3 on core 0, offset 0xe38
+Read 724750 from socket0-CHA4 on core 0, offset 0xe48
+Read 571757 from socket0-CHA5 on core 0, offset 0xe58
+Read 442009 from socket0-CHA6 on core 0, offset 0xe68
+Read 274881 from socket0-CHA7 on core 0, offset 0xe78
+Read 630716 from socket0-CHA8 on core 0, offset 0xe88
+Read 386255 from socket0-CHA9 on core 0, offset 0xe98
+Read 763828 from socket0-CHA10 on core 0, offset 0xea8
+Read 2560639 from socket0-CHA11 on core 0, offset 0xeb8
+Read 537135 from socket0-CHA12 on core 0, offset 0xec8
+Read 685525 from socket0-CHA13 on core 0, offset 0xed8
+Read 388565 from socket0-CHA14 on core 0, offset 0xee8
+Read 342802 from socket0-CHA15 on core 0, offset 0xef8
+Read 10319926 from socket0-CHA16 on core 0, offset 0xf08
+Read 397594 from socket0-CHA17 on core 0, offset 0xf18
+---------------- PMA GV ANALYSIS ----------------
+--- SOCKET0 ---
+cha: 0, PMA GV before: 1478992, PMA GV after: 1478992; Diff: 0
+cha: 1, PMA GV before: 807598, PMA GV after: 808550; Diff: 952
+cha: 2, PMA GV before: 417210, PMA GV after: 440657; Diff: 23447
+cha: 3, PMA GV before: 620331, PMA GV after: 621292; Diff: 961
+cha: 4, PMA GV before: 724750, PMA GV after: 724750; Diff: 0
+cha: 5, PMA GV before: 571757, PMA GV after: 571757; Diff: 0
+cha: 6, PMA GV before: 439683, PMA GV after: 442009; Diff: 2326
+cha: 7, PMA GV before: 274881, PMA GV after: 274881; Diff: 0
+cha: 8, PMA GV before: 630716, PMA GV after: 630716; Diff: 0
+cha: 9, PMA GV before: 386255, PMA GV after: 386255; Diff: 0
+cha: 10, PMA GV before: 763828, PMA GV after: 763828; Diff: 0
+cha: 11, PMA GV before: 2560639, PMA GV after: 2560639; Diff: 0
+cha: 12, PMA GV before: 537135, PMA GV after: 537135; Diff: 0
+cha: 13, PMA GV before: 683583, PMA GV after: 685525; Diff: 1942
+cha: 14, PMA GV before: 387398, PMA GV after: 388565; Diff: 1167
+cha: 15, PMA GV before: 342802, PMA GV after: 342802; Diff: 0
+cha: 16, PMA GV before: 10314095, PMA GV after: 10319926; Diff: 5831
+cha: 17, PMA GV before: 397594, PMA GV after: 397594; Diff: 0
+Max PMA GV value 23447 for socket0 observed on CHA 2
